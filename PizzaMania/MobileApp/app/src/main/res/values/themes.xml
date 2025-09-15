@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PizzaMania" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryDark">@color/red_700</item>
+        <item name="colorAccent">@color/red_500</item>
+    </style>
+
+    <!-- Light Theme -->
+    <style name="Theme.PizzaMania.Light" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryDark">@color/red_700</item>
+        <item name="colorAccent">@color/red_500</item>
+        <item name="android:windowBackground">@color/light_background</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="Theme.PizzaMania.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryDark">@color/red_700</item>
+        <item name="colorAccent">@color/red_500</item>
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <!-- Default Theme (uses DayNight) -->
+    <style name="Theme.PizzaMania" parent="Base.Theme.PizzaMania" />
+</resources>
